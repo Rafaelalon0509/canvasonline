@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizarra de Dibujo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button id="clearBtn">Borrar</button>
+            <label for="colorPicker">Color:</label>
+            <input type="color" id="colorPicker" value="#000000">
+            <label for="brushSize">Tamaño del pincel:</label>
+            <input type="range" id="brushSize" min="1" max="100" value="5">
+        </div>
+        <canvas id="drawCanvas"></canvas>
+    </div>
+
+    <script src="script/script.java"></script>
+</body>
+</html>

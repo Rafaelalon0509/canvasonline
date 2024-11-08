@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.container {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid #ddd;
+    padding: 20px;
+    background-color: white;
+}
+
+.controls {
+    margin-bottom: 10px;
+    
+}
+
+#drawCanvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+}
